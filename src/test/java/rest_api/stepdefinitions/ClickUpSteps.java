@@ -15,8 +15,8 @@ public class ClickUpSteps {
         System.out.print(" Execution of first step");
     }
     @When("I create new List {string}")
-    public void iCreateNewList(String List){
-        System.out.print("New list is created" );
+    public void iCreateNewList(String list){
+        System.out.print("New list is created" + list );
     }
 
     @And("Verify that the List name is correct")
